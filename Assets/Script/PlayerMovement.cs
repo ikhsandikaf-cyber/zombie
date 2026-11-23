@@ -56,7 +56,6 @@ public class PlayerMovement : MonoBehaviour
     {
         if (other.CompareTag("Coin"))
         {
-            Destroy(other.gameObject);
             skor++;
             Debug.Log("Skor Kamu: " + skor);
 
